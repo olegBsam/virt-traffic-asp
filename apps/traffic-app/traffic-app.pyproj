@@ -22,6 +22,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="com\configuration\config.py" />
+    <Compile Include="com\configuration\__init__.py" />
+    <Compile Include="com\work_with_files\work_with_files.py" />
+    <Compile Include="com\work_with_files\__init__.py" />
     <Compile Include="traffic_app.py" />
   </ItemGroup>
   <ItemGroup>
@@ -34,6 +38,11 @@
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
       <Architecture>X64</Architecture>
     </Interpreter>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="com\" />
+    <Folder Include="com\configuration\" />
+    <Folder Include="com\work_with_files\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

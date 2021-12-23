@@ -1,8 +1,11 @@
+from os import startfile
+from com.configuration.config import Configuration
+#import tensorflow as tf
+#from tensorflow import keras
+from com.work_with_files.work_with_files import WorkWithFiles
 
-import tensorflow as tf
-from tensorflow import keras
+source_data = WorkWithFiles.getDataFrom(Configuration.bc_oct89ext_filename, Configuration.bc_oct89ext_Str_parser)
 
 
-window = 3
-batchSize = 2
-oneVectorLen = 19
+t = 12
+
