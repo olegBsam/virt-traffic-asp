@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "324ef90a-da4d-4991-a961-c81f206c708d": {
+      "ProjectGuid": "324ef90a-da4d-4991-a961-c81f206c708d",
+      "DisplayName": "traffic-app",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
