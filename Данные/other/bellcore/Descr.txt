@@ -1,0 +1,70 @@
+
+https://www.sfu.ca/~ljilja/TRAFFIC/Bellcore/
+
+URL:
+http://ita.ee.lbl.gov/html/traces.html
+http://ita.ee.lbl.gov/html/contrib/BC.html
+
+Description of Bellcore Traces: 
+BC-pAug89.TL, BC-pOct89.TL, BC-Oct89Ext.TL
+
+The measurement was done at the Bellcore Morristown Research and Engineering 
+facility, on the computing lab's Ethernet, which carried primarily local traffic, 
+but also all traffic between Bellcore and the Internet. These traces each contain 
+a million packet arrivals seen on the Ethernet.   
+
+The traces are in 2-column ASCII format. The first column gives a floating-point 
+time stamp representing the time in seconds since the start of a trace. The second 
+column gives the Ethernet data length in bytes. Although the times are expressed to 
+6 places after the decimal point, giving the appearance of microsecond resolution, 
+the hardware clock had an actual resolution of 4 microseconds. The length field does 
+not include the Ethernet preamble, header, or CRC.
+
+The trace BC-pAug89.TL began at 11:25 on August 29, 1989, and ran for about 
+3142.82 seconds (until 1,000,000 packets had been captured). 
+
+The trace BC-pOct89.TL began at 11:00 on October 5, 1989, and ran for about 
+1759.62 seconds.  
+
+The trace BC-Oct89Ext.TL began at 23:46 on October 3, 1989, and captured the 
+first 1 million external arrivals (packets headed between Bellcore and the rest of 
+the Internet), ending about 122797.83 seconds later.  
+
+The short version traces "pAug89_2000.TL", "pOct89_2000.TL" and "OctExt89_2000.TL"
+are obtained from "BC-pAug89.TL", "BC-pOct89.TL", "BC-Oct89Ext.TL", respectively. Each of 
+the short traces contains the first 2,000 samples of the source traces. 
+
+
+
+URL:
+http://ita.ee.lbl.gov/html/traces.html
+http://ita.ee.lbl.gov/html/contrib/BC.html
+
+Описание Bellcore Traces: 
+BC-pAug89.TL, BC-pOct89.TL, BC-Oct89Ext.TL
+
+Измерение было проведено в Bellcore Morristown Research and Engineering. 
+объект, расположенный в сети Ethernet вычислительной лаборатории, по которому в основном передавался локальный трафик, 
+но также и весь трафик между Bellcore и Интернетом. Каждый из этих следов содержит
+миллион поступающих пакетов, замеченных по Ethernet.   
+
+Трассировки представлены в формате ASCII с двумя столбцами. Первый столбец дает число с плавающей запятой
+отметка времени, представляющая время в секундах с начала трассировки. Секунда
+столбец показывает длину данных Ethernet в байтах. Хотя времена выражаются
+6 знаков после запятой, что дает разрешение микросекунды, 
+аппаратные часы имели фактическое разрешение 4 микросекунды. Поле длины делает
+не включать преамбулу, заголовок или CRC Ethernet.
+
+Трассировка BC-pAug89.TL началась в 11:25 29 августа 1989 г. и длилась около 
+3142,82 секунды (пока не было перехвачено 1 000 000 пакетов). 
+
+Трассировка BC-pOct89.TL началась в 11:00 5 октября 1989 г. и длилась около 
+1759,62 секунды.  
+
+Трассировка BC-Oct89Ext.TL началась в 23:46 3 октября 1989 г. и захватила 
+первый 1 миллион внешних поступлений (пакеты, направляемые между Bellcore и остальной 
+Интернет), закончившийся примерно через 122797,83 секунды.  
+
+Краткая версия отслеживает "pAug89_2000.TL", "pOct89_2000.TL" и "OctExt89_2000.TL"
+получены из BC-pAug89.TL, BC-pOct89.TL, BC-Oct89Ext.TL соответственно. Каждый из
+короткие трассы содержат первые 2000 отсчетов исходных трасс.
